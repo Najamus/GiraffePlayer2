@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion COMPILESDKVERSION
@@ -13,7 +13,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.github.tcking.giraffeplayer.example"
+//        applicationId "com.github.tcking.giraffeplayer.example"
         minSdkVersion MINSDKVERSION
         targetSdkVersion TARGETSDKVERSION
         versionCode 1
